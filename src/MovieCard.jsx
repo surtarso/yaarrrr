@@ -27,7 +27,7 @@ const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
           //if no poster is found, use placeholder
           src={Poster !== "N/A" ? Poster : IMG_NOTFOUND}
           alt={Title}
-          //adds onClick to each movie poster (replace title spaces for '+')
+          //adds onClick to each movie poster (replace title spaces with '+')
           onClick={() => openInNewTab(TARGET_URL + Title.replace(/\s/g,'+'))}
           />
       </div>
