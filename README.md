@@ -1,6 +1,6 @@
 # yaarrrr - Yet Another Await-Return Responsive React Root
 
-This is a React.js application that serves as a movie search app, connected to the MovieDB database. With **yaarrrr**, you can easily search for movies by their titles and conveniently navigate to their IMDB or TPB pages.
+This is a React.js application that serves as a movie search app, connected to the OMDB database. With **yaarrrr**, you can easily search for movies by their titles and conveniently navigate to their IMDB or TPB pages.
 
 <img src="screenshot.png" width='50%' height='50%'>
 
@@ -61,3 +61,13 @@ The following dependencies are required for running **yaarrrr**:
 - `react-dom`: Version "^18.1.0"
 - `react-scripts`: Version "5.0.1"
 - `web-vitals`: Version "^2.1.4"
+
+## Disclaimer
+
+Please note that the provided OMDB API key in the code (`API_URL = "http://www.omdbapi.com?apikey=b6003d8a"`) is a personal key and should be replaced with your own OMDB API key. You can obtain your API key by signing up on the [OMDB website](http://www.omdbapi.com/apikey.aspx). Using personal API keys is essential for security and rate limiting reasons.
+
+When you obtain your API key, make sure to replace the existing key in the code to avoid any unauthorized usage and to ensure that your application works as intended.
+
+Remember that API keys and sensitive information should not be hard-coded in your codebase when sharing your code publicly or deploying it to production environments. Consider using environment variables or secure configuration management for such sensitive information.
+
+Feel free to customize and enhance **yaarrrr** to suit your needs and requirements.
