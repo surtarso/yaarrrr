@@ -4,6 +4,12 @@ This is a React.js application that serves as a movie search app, connected to t
 
 <img src="screenshot.png" width='50%' height='50%'>
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [OMDB API Disclaimer](#disclaimer)
+
 For a more in-depth understanding of how to use and customize the app, please refer to the [full documentation](documentation.md).
 
 ## Installation
