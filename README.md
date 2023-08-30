@@ -77,3 +77,4 @@ When you obtain your API key, make sure to replace the existing key in the code 
 Remember that API keys and sensitive information should not be hard-coded in your codebase when sharing your code publicly or deploying it to production environments. Consider using environment variables or secure configuration management for such sensitive information.
 
 Feel free to customize and enhance **yaarrrr** to suit your needs and requirements.
+For a more in-depth understanding of how to use and customize the app, please refer to the [full documentation](documentation.md).
