@@ -119,13 +119,13 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 ```
 - This line imports the `App` component from the './App' file.
-- The `App` component is likely the main component of the application that will be rendered.
+- The `App` component is the main component of the application that will be rendered.
 
 ```javascript
 const root = ReactDOM.createRoot(document.getElementById('root'));
 ```
 - This line creates a React root using the `createRoot` method from `ReactDOM`.
-- The `createRoot` method is used to create a root for a concurrent mode tree (experimental feature as of my knowledge cutoff in September 2021).
+- The `createRoot` method is used to create a root for a concurrent mode tree.
 - `document.getElementById('root')` retrieves the DOM element with the id 'root' where the React application will be rendered.
 - The `root` constant now holds a reference to the root element.
 
@@ -141,7 +141,7 @@ root.render(
 - `<App />` is the usage of the `App` component. It is being rendered within the `React.StrictMode` wrapper.
 - The `root.render(...)` function call effectively renders the `App` component into the DOM, starting the React application.
 
-Overall, this code imports necessary dependencies, creates a React root, and renders the main `App` component within a `StrictMode` wrapper. This is the entry point for your React application, where the rendering process begins.
+Overall, this code imports necessary dependencies, creates a React root, and renders the main `App` component within a `StrictMode` wrapper. This is the entry point for the React application, where the rendering process begins.
 
 [Back to top](#index)
 
@@ -172,7 +172,7 @@ const IMG_NOTFOUND = "https://via.placeholder.com/248x368/000000/00FFFF/?text=NO
 const TARGET_URL = "https://thepiratebay.org/search.php?q=";
 const IMDB_URL = "https://www.imdb.com/find?q=";
 ```
-- These lines define constants `TARGET_URL` and `IMDB_URL` with URLs for The Pirate Bay and IMDb search pages, respectively.
+- These lines define constants `TARGET_URL` and `IMDB_URL` with URLs for TPB and IMDb search pages, respectively.
 
 ```jsx
 const openInNewTab = url => {
